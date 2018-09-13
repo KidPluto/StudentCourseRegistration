@@ -15,14 +15,6 @@ public class Course {
 		name = courseName;
 		studentsRegistered = new ArrayList<Student>();
 	}
-	
-	public Course(Long courseId, String courseName, Student student) {
-		super();
-		id = courseId;
-		name = courseName;
-		studentsRegistered = new ArrayList<Student>();
-		studentsRegistered.add(student);
-	}
 	public Long getId() {
 		return id;
 	}
