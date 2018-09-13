@@ -41,5 +41,19 @@ Notes:
 
 ## Notes about setup
 
-1. Something here
+1. Started at https://start.spring.io/, selected Boot v1.5.16 (Eclipse Photon didn't like v2.x), Web and JPA components.
+1. Used examples from here: https://github.com/KidPluto/marcobehler-java-db-and-tx
+1. In the pom.xml added the follow, to have an in-memory database to play with.
+
+```xml
+       <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.4.187</version>
+        </dependency>
+```
+
+## Result
+
+1. I ended up taking too much time, and wrote lots of code in the attempt to get something which I could run.
 
